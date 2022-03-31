@@ -1,0 +1,17 @@
+<app-navbar (navItem)="activeTab($event)" [navData]="navbarList"></app-navbar>
+<!-- <ul *ngFor="let navInput of navOutput">
+  <li>{{navInput}}</li>
+</ul> -->
+<div *ngFor="let vegetable of vegetableLists" class="container">
+  <ul>
+    <li>{{"Name: "+vegetable.name}}</li>
+    <li>{{"Price: "+vegetable.price}}</li>
+  </ul>
+  <button (click)="setAmount(vegetable.price)">Click</button>
+</div>
+<div class="priceNav">
+  <ul>
+    <li><a href="#">price</a></li>
+    <li id="amount">{{amount}}</li>
+  </ul>
+</div>

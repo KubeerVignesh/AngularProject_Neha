@@ -1,0 +1,37 @@
+.container{
+    background-color: black;
+    height: 200px;
+    width:15%;
+    margin: 10px;
+    float: left;
+    color: white;
+    border-radius: 10px;
+}
+ul{
+    list-style-type: none;
+    padding: 5px 20px;
+}
+li:nth-of-type(odd){
+    font-size: 30px;
+    color:green;
+    padding-bottom: 30px;
+}
+button{
+    margin: 5px 50px;
+    padding: 5px 40px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+.priceNav{
+    text-align: end;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+#amount{
+    font-weight: bold;
+    font-size: 30px;
+}
